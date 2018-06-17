@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 juin 2018, 16:31:05
+    Author     : Félix
+*/
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  line-height: 140%;
+}
+
+aside{
+   background-color: #f1f1f1; 
+   float: right;
+   line-height: 140%;
+}
+#trompe{
+	width:180px;
+	height:150px;
+	border-radius: 50%;
+        float:right; 
+        float:top;
+}
+
+li {
+line-height: 140%;
+}
+#xp{
+ border:2px solid #8f959e; 
+width: 1096px; 
+background-color:#d6d6d6;
+}
+#bloque{
+border:2px solid #8f959e;    
+width: 1096px; 
+background-color:#d6d6d6;
+}
+
+h1{
+        font-family:'Indie Flower', cursive;
+        text-decoration:underline;
+}
+h1:hover{
+		color:red;
+}
+
+h2{
+        font-family:'Indie Flower', cursive;
+        text-decoration:underline;
+}
+h2:hover{
+		color:red;
+}
+
+body
+{background-color:#c3ccdb;
+  animation: mymove 5s infinite;
+ font-family: 'Roboto', sans-serif;
+}
+@-webkit-keyframes mymove {
+    50% {background-color: #bfd7ff;}
+} 
